@@ -1,0 +1,90 @@
+.App {
+  /* text-align: center; */
+  background-color: rgb(247,247,247);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.bold{
+  font-weight: bold;
+}
+.horizontal-rule{
+  border: 5px solid;
+  border-color: black;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-right: auto;
+}
+.blue-text{
+  color:rgb(25, 118, 210);
+}
+.padding-left-class{
+  padding-left: 2em;
+  /* padding-right: 2em; */
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  margin-right: 0;
+  font-size: 1.8rem;
+  color: #444444;
+}
+.pro-sidebar > .pro-sidebar-inner{
+  background: white !important;
+  -webkit-box-shadow: 0 3px 3px 0 rgb(190, 189, 189);
+  box-shadow: 0 3px 3px 0 rgb(190, 189, 189);
+
+}
+.pro-sidebar .pro-menu.shaped .pro-menu-item > .pro-inner-item > .pro-icon-wrapper {
+  background-color: transparent !important;
+}
+label.upload-btn-label {
+  width: 100%;
+}
+span.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  width: 100%;
+}
+.optionListContainer{
+  width: 92.5% !important;
+}
+span.MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label.css-ahj2mt-MuiTypography-root {
+  font-size: 1.25rem;
+  font-weight: 402;
+}
+.multiSelectContainer ul {
+  text-transform: uppercase !important;
+}
+.chip {
+  text-transform: uppercase !important;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
