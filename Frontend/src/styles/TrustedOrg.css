@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+.trusted-org-wrap{
+    /* background-color:white; */
+    padding-top: 1em;
+}
+.org-title{
+    text-align: center;
+    font-size: 2.3rem;
+    padding-bottom: 1em;
+    font-family: 'Outfit', sans-serif;
+    color: #676767;
+    padding-bottom: 2em;
+}
+.org-logo-style{
+    width: 7em;
+    height: 7em;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+.logo-parent{
+    text-align: center;
+    /* border: 2px solid blue; */
+    padding-bottom: 7em;
+}

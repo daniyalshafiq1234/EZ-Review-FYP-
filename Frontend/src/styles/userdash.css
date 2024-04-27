@@ -1,0 +1,57 @@
+.user-dash-sub-wrap{
+    display: flex;
+    flex-direction: row;
+}
+.user-dash-pic-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.authorDashKanbanBoardWrap{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+}
+.kanbanCol1,.kanbanCol2,.kanbanCol3,.kanbanCol4{
+    flex: 20%;
+    margin: 1em;
+    background-color: #f4f5f7;
+    border:2px;
+}
+.kanbanCard{
+    /* border: 2px solid red; */
+    padding-top: 0.4em;
+    /* padding-left: 0.3em; */
+    padding-bottom: 1em;
+    margin: 0.5em;
+    background-color: white;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 3px rgb(128, 123, 123);
+    box-shadow: 0 0 3px rgb(128, 123, 123);
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+}
+.kanbanCard:hover{
+    background-color: rgb(212, 231, 255);
+    cursor:pointer;
+}
+.kanbanColHeading{
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    color: #5e6c84;
+    text-transform: uppercase;
+}
+.kanbanCardTitle,.kanbanCardId{
+    margin-left: 0.5em;
+}
+.kanbanCardTitle{
+    font-weight: 500;
+}
+
+@media only screen and (max-width:391px){
+    .kanbanCol1,.kanbanCol2,.kanbanCol3,.kanbanCol4{
+    flex: 50%;
+    }
+}

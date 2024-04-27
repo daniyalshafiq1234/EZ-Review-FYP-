@@ -1,0 +1,54 @@
+.rmv-link-style{
+    text-decoration: none;
+    color:#888888;
+    font-weight: bold;
+    transition: .2s all ease-in-out;
+}
+.reg-btn,.login-btn{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+.login-btn{
+    font-weight: bold;
+    border: 2px solid grey;
+    color: #888888;
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+    transition: .2s all ease-in-out;
+}
+.login-btn:hover{
+    border-color: rgb(25, 118, 210);
+}
+.rmv-link-style:hover .login-btn{
+    color:rgb(25, 118, 210);
+}
+.reg-btn{
+    background-color:rgb(25, 118, 210) ;
+    font-weight: bold;
+    border: 2px solid rgb(25, 118, 210);
+    color: white;
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+    transition: .2s all ease-in-out;
+}
+.reg-btn:hover{
+    border-color: #4b85c0;
+    background-color: #4b85c0;
+}
+
+.me-auto.navbar-nav {
+    margin: 0 auto;
+}
+nav.navbar.navbar-expand-lg.navbar-light {
+    background-color: white;
+    padding:0;
+    -webkit-box-shadow: 0 0 4px rgb(190, 189, 189);
+    box-shadow: 0 0 4px rgb(190, 189, 189);
+    
+}

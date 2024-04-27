@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+.reg-form-actual{
+    /* border: 2px solid red; */
+    width: fit-content;
+    
+    
+}
+.reg-form-heading-main{
+    /* font-family: 'Outfit', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    width: fit-content;
+    margin-left: 0.15em;
+    /* border: 2px solid red; */
+}
+input.PhoneInputInput {
+  border: 1.8px solid rgb(219, 213, 213);
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color:rgb(247,247,247) ;
+  font-size: 1.1rem;
+  }
+  input.PhoneInputInput:hover{
+    border: 1.8px solid black;
+  }
+
+.reg-form-wrap{
+    /* border: 2px solid red; */
+    flex: 50%;
+    display: flex;
+    justify-content: end;
+    
+}
+.reg-form-sub-wrap{
+    /* border: 2px solid blue; */
+    width: fit-content;
+    -webkit-box-shadow: 0 0 10px rgb(128, 123, 123);
+    box-shadow: 0 0 10px rgb(128, 123, 123);
+    margin: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border-radius: 0.8em;
+    background-color: white;
+}
+.name-div{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-; */
+}
+.name-div-txt-field{
+    margin-left: 2em;
+}
+/* button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    height: 3.2em;
+} */

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@900&display=swap');
+.main-head{
+    font-family: 'Outfit', sans-serif;
+    font-size: 3.5rem;
+    color: black;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.sub-head{
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 91, 182);
+    font-size: 1.5rem;
+    text-align: center;
+}
+.main-landing-page-heading-wrap{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+.side-content-features-wrap{
+/* border: 2px solid red; */
+flex: 50%;
+}
+.side-content-features-title{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.8rem;
+    color: black;
+    padding-left: 1.5em;
+    padding-top: 2em;
+}
+.side-content-features-sub-title{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.3rem;
+    color: #646464;
+    padding-left: 2em;
+    padding-bottom: 1.5em;
+}
+.list-feature-side-content{
+    padding-left: 2em;
+}
+.feature-side-content-points{
+    line-height: 5em;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    margin-right: 0.7em;
+    font-size: 3rem;
+    color: #3f3f3f;
+}

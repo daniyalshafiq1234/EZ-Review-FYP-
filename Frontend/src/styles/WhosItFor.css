@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+.who-it-for-wrap{
+    display: flex;
+    padding-bottom: 9em;
+    padding-top: 3em;
+    /* background-color: rgb(229, 238, 243); */
+}
+.wif-content{
+flex: 50%;
+/* line-height: 3em; */
+font-size: 1.2rem;
+padding-left: 3em;
+}
+.wif-icons{
+flex: 50%;
+font-size: 5rem;
+display: grid;
+grid-template-columns: 1fr 1fr;
+color:rgb(0, 91, 182);
+/* border: 2px solid red; */
+text-align: center;
+/* transition: .2s all ease-in-out; */
+}
+/* .wif-icons:hover{
+    color: black;
+} */
+.fas{
+    transition: .2s all ease-in-out;
+}
+.fas:hover{
+    color: #676767;
+    cursor: pointer;
+}
+.wof-title{
+    padding-top: 0.4em;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+.wif-caption{
+    /* text-align: center; */
+    padding-left: 2em;
+    padding-top: 1.2em;
+    line-height: 2em;
+    font-size: 0.97em;
+}
+.icon-text{
+    font-size: 1.1rem;
+    display: block;
+    color: black;
+    font-weight: bold;
+}
