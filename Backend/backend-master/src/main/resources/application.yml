@@ -1,0 +1,39 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/ezreviewback
+    password: ''
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: 'true'
+  mail:
+    host: localhost
+    port: 1025
+    username: hello
+    password: hello
+
+    properties:
+      mail:
+        smtp:
+          ssl:
+            trust: "*"
+          auth: true
+          starttls:
+            enable: true
+          connectiontimeout: 5000
+          timeout: 3000
+          writetimeout: 5000
+  servlet:
+    multipart:
+      max-request-size: 700KB
+      max-file-size: 700KB
+application:
+  jwt:
+    tokenPrefix: 'Bearer '
+    tokenExpirationAfterDays: '10'
+    secretKey: securekeysecurekeysecurekeysecurekeysecurekeysecurekeysecurekeysecurekeysecurekeysecurekey
+confirmationLink: http://localhost:8080/registration/confirm?token=
+upload:
+  path: src/main/resources/static/uploads
